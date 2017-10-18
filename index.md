@@ -1,6 +1,8 @@
 ---
-layout: home
+layout: main
 ---
+
+# CSVWeaponStatReader
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg)](https://www.paypal.me/scobalula) ![Downloads](https://img.shields.io/github/downloads/Scobalula/CSVWeaponStatReader/total.svg) [![license](https://img.shields.io/github/license/Scobalula/CSVWeaponStatReader.svg)]()
 
@@ -48,3 +50,4 @@ The tool is released under GPL 3.0 and is free to use and modify. The tool is pr
 A lot of work is put into my tools, feel like buying me a drink? Click here:
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg)](https://www.paypal.me/scobalula) 
+

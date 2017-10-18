@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Leap Day in Jekyll</title>
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <link rel="stylesheet" href="assets/stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="assets/javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+
+  <header>
+    <a href="">
+      <h1>Leap Day for Jekyll</h1>
+      <p>Theme built on GitHub Pages for all to use.</p>
+    </a>
+  </header>
+
+
+  <div id="banner">
+  <div class="banner-inner">
+    <span id="logo"><span class="octicon octicon-mark-github"></span></span>
+
+    <a href="https://github.com/mattgraham/leapday" class="button fork"><strong>Fork On GitHub</strong></a>
+    <div class="downloads">
+      <span>Downloads:</span>
+      <ul>
+        <li><a href="https://github.com/mattgraham/leapday/zipball/master" class="button">ZIP</a></li>
+        <li><a href="https://github.com/mattgraham/leapday/tarball/master" class="button">TAR</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <div class="wrapper">
+
+    <nav>
+  <ul></ul>
+</nav>
+
+	<section>
+		<p><a href="https://www.paypal.me/scobalula"><img src="https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg" alt="Donate" /></a> <img src="https://img.shields.io/github/downloads/Scobalula/CSVWeaponStatReader/total.svg" alt="Downloads" /> <a href=""><img src="https://img.shields.io/github/license/Scobalula/CSVWeaponStatReader.svg" alt="license" /></a></p>
+
+<div style="text-align:center"><img src="https://i.imgur.com/egtdqDo.png" /></div>
+
+<p>This tool will read CSV files with Call of Duty Weapon stats stored in them, specifically Marvel4’s raw spreadsheets (i.e. with headers named the same as those used in APE/Asset Manager.) and save them to a GDT. I made this tool in less than a few hours but I hope it saves most people countless hours in copying stats from a raw spreadsheet.</p>
+
+<h1 id="how-to-use">How to use</h1>
+
+<p>Use is simple, you can simply drag and drop onto the weapons box or click Open CSV to load a CSV. If the data is correct then the weapons will be loaded into the weapons box and Key/Values for weapon stats will be loaded into the Settings box.</p>
+
+<p>The CSV files <strong><em>must</em></strong> be unformatted, with the column <strong>WEAPONFILE</strong> used as the name for “Weapons” box and matching APE/Asset Manager settings being used for saving, an example of how it should be formatted is like so:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>WEAPONFILE</th>
+      <th>displayName</th>
+      <th>clipSize</th>
+      <th>damage</th>
+      <th>…..</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h1_ak47_mp</td>
+      <td>AK-47</td>
+      <td>30</td>
+      <td>40</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>h1_aprast_mp</td>
+      <td>BOS14</td>
+      <td>35</td>
+      <td>35</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>h1_g3_mp</td>
+      <td>G3</td>
+      <td>20</td>
+      <td>40</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>And the CSV should appear like so when opened in text editor:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>WEAPONFILE,displayName,clipSize,damage,....
+h1_ak47_mp,AK-47,30,40,....
+h1_aprast_mp,BOS14,35,45,....
+h1_g3_mp,G3,20,40,....
+</code></pre>
+</div>
+
+<p>To save a weapon simply select it, select the weapon type and click Save Selected, to save all select Save All (the Weapon Type is specific to each weapon so you can simply select it for each weapon then click Save All).</p>
+
+<p><strong><em>NOTE:</em></strong> If you’re using Marvel4’s statsheets (which most people will), make sure to click the “<strong><em>Raw Weapons</em></strong>” tab and download as a <strong><em>CSV</em></strong>, if a statsheet of his does not have a Raw Spreadsheet then those stats can’t be used as it does not work with the other spread sheets with formatting, etc.</p>
+
+<h1 id="credits">Credits</h1>
+
+<ul>
+  <li>Collie (Suggesting it)</li>
+  <li>Marvel4 (Raw Weapon Stats being the reason this was made that are on point)</li>
+  <li>Amazing people of Stackoverflow (me still C# nublet)</li>
+</ul>
+
+<h1 id="license">License</h1>
+
+<p>The tool is released under GPL 3.0 and is free to use and modify. The tool is provided with NO warranty at all, you retain full responsibility, I am not responsible for any damages. Please read the LICENSE file for more details.</p>
+
+<h1 id="donations">Donations</h1>
+
+<p>A lot of work is put into my tools, feel like buying me a drink? Click here:</p>
+
+<p><a href="https://www.paypal.me/scobalula"><img src="https://img.shields.io/badge/Donate-PayPal-yellowgreen.svg" alt="Donate" /></a></p>
+
+	  </section>
+  <footer>
+    <span class="small">Built in Jekyll for GitHub Pages by <a href="http://twitter.com/#!/michigangraham">@mattgraham</a></span>
+  </footer>
+  </div>
+  <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
+
